@@ -50,6 +50,10 @@ class MainActivity : BaseActivity() {
         apiInterface.enqueue(object  : retrofit2.Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
                 closeProgress()
+                if(response.body() == null){
+                    Toast.makeText(applicationContext,getString(R.string.somethingwentwrong),Toast.LENGTH_SHORT).show()
+                    return;
+                }
                 val jsonRes = JSONObject(response.body()?.string())
                 Log.d("responsebody==", jsonRes.toString())
 

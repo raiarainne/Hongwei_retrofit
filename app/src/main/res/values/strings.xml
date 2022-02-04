@@ -5,4 +5,5 @@
     <string name="login">Login</string>
     <string name="enteremailaddress">Please enter email address.</string>
     <string name="enterpassword">Please enter valid password</string>
+    <string name="somethingwentwrong">Something went wrong</string>
 </resources>
