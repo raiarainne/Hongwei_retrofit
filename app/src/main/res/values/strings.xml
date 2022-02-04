@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hongwei Retrofit</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="enteremailaddress">Please enter email address.</string>
+    <string name="enterpassword">Please enter valid password</string>
+</resources>
